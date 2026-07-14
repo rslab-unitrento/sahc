@@ -1,0 +1,41 @@
+;wood arboriculture;areas with evolving shrubby and tree vegetation;airport areas and heliports;areas with agricultural crops and important natural spaces;areas with sparse vegetation;mining areas;areas affected by fires;port areas;recreational and sports areas;green areas;water basins;coniferous forests;deciduous forests;mixed coniferous and broad-leaved forests;construction sites;bushes and shrubs;cemeteries;temporary crops associated with permanent crops;waterways, canals and waterways;landfills and scrap yards;orchards;industrial, commercial, large-scale plant and service settlements;seas;olive groves;high altitude prairies and moors;stable meadows;road and railway infrastructure networks and areas and ancillary spaces;rice fields;bare rocks, cliffs and outcrops;salt pans;arable land in irrigated areas;non-irrigated arable land;complex cultivation and parcel systems;dunes and sand beaches;continuous fabric;discontinuous fabric;peat bogs;vineyards;wetlands and brackish valleys;internal wetlands
+wood arboriculture;2522;203;0;0;9;1;0;0;33;62;217;0;375;2;0;1;0;0;10;38;113;16;0;0;0;0;22;0;2;0;336;5;0;0;0;0;0;16;0;17
+areas with evolving shrubby and tree vegetation;481;1055;0;0;520;10;0;0;47;85;120;0;782;19;0;4;0;0;13;117;75;22;0;0;1;0;55;0;38;0;458;34;0;0;0;0;0;2;0;62
+airport areas and heliports;40;0;0;0;0;0;0;0;144;21;52;0;0;0;0;0;0;0;4;12;12;12;0;0;0;0;106;0;0;0;235;0;0;0;0;0;0;9;0;0
+areas with agricultural crops and important natural spaces;65;192;0;0;12;0;0;0;131;79;12;0;338;8;0;0;0;0;4;13;57;16;0;0;0;0;57;0;1;0;923;90;0;0;0;0;0;2;0;0
+areas with sparse vegetation;3;122;0;0;3179;120;0;0;21;0;38;0;140;25;0;0;0;0;1;46;15;4;0;0;0;0;26;0;190;0;52;18;0;0;0;0;0;0;0;0
+mining areas;26;104;0;0;75;1094;0;0;119;79;1237;0;75;0;0;0;0;0;17;738;22;12;0;0;0;0;32;0;6;0;69;7;0;0;0;0;0;10;0;278
+areas affected by fires;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+port areas;0;0;0;0;0;0;0;0;0;0;228;0;0;0;0;0;0;0;2;0;0;2;0;0;0;0;7;0;0;0;0;0;0;0;0;0;0;0;0;3
+recreational and sports areas;43;188;0;0;338;146;0;0;5025;723;705;0;313;254;0;6;0;0;39;419;123;480;0;0;15;0;772;0;37;0;1030;152;0;0;0;0;0;11;0;14
+green areas;76;81;0;0;3;61;0;0;989;2593;79;0;244;7;0;0;0;0;28;322;52;387;0;0;0;0;631;0;4;0;394;5;0;0;0;0;0;17;0;27
+water basins;12;4;0;0;38;39;0;0;92;21;3790;0;42;0;0;0;0;0;35;59;18;101;0;0;0;0;100;0;0;0;87;7;0;0;0;0;0;5;0;673
+coniferous forests;0;30;0;0;27;1;0;0;20;8;4;0;787;1049;0;3;0;0;0;4;1;13;0;0;2;0;27;0;4;0;17;3;0;0;0;0;0;0;0;0
+deciduous forests;430;238;0;0;59;3;0;0;153;261;662;0;8659;126;0;21;0;0;38;95;73;85;0;0;6;0;184;0;11;0;731;40;0;0;0;0;0;8;0;117
+mixed coniferous and broad-leaved forests;8;50;0;0;99;1;0;0;8;1;11;0;702;1023;0;0;0;0;1;3;0;3;0;0;0;0;9;0;2;0;69;10;0;0;0;0;0;0;0;0
+construction sites;33;17;0;0;9;143;0;0;302;204;167;0;64;0;0;0;0;0;28;1721;4;438;0;0;0;0;501;0;2;0;298;25;0;0;0;0;0;5;0;39
+bushes and shrubs;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+cemeteries;10;0;0;0;0;0;0;0;1050;108;3;0;12;0;0;0;0;0;4;47;0;312;0;0;0;0;387;0;0;0;58;5;0;0;0;0;0;4;0;0
+temporary crops associated with permanent crops;87;31;0;0;0;58;0;0;207;299;51;0;50;0;0;0;0;0;9;122;45;47;0;0;0;0;65;0;0;0;846;64;0;0;0;0;0;14;0;5
+waterways, canals and waterways;74;38;0;0;27;209;0;0;100;87;5821;0;621;1;0;0;0;0;94;293;12;71;0;0;0;0;184;0;5;0;252;7;0;0;0;0;0;3;0;101
+landfills and scrap yards;79;175;0;0;46;513;0;0;286;96;102;0;181;0;0;0;0;0;34;1253;10;736;0;0;0;0;735;0;22;0;368;350;0;0;0;0;0;2;0;1
+orchards;144;19;0;0;0;0;0;0;47;31;31;0;14;0;0;0;0;0;7;6;1227;16;0;0;0;0;19;0;0;0;205;8;0;0;0;0;0;219;0;7
+industrial, commercial, large-scale plant and service settlements;62;47;0;0;3;33;0;0;1081;812;431;0;385;0;0;0;0;0;79;706;18;5699;0;0;0;0;2057;0;1;0;414;23;0;0;0;0;0;13;0;103
+seas;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+olive groves;11;15;0;0;24;0;0;0;294;127;3;0;14;0;0;0;0;0;0;10;1049;7;0;0;0;0;119;0;3;0;247;28;0;0;0;0;0;49;0;0
+high altitude prairies and moors;0;12;0;0;43;0;0;0;0;0;0;0;14;0;0;35;0;0;0;0;0;1;0;0;1856;0;1;0;30;0;0;0;0;0;0;0;0;0;0;8
+stable meadows;26;69;0;0;30;9;0;0;74;19;18;0;63;1;0;2;0;0;1;15;35;13;0;0;1;0;33;0;1;0;1043;534;0;0;0;0;0;12;0;1
+road and railway infrastructure networks and areas and ancillary spaces;22;32;0;0;22;67;0;0;509;244;376;0;249;2;0;0;0;0;66;1064;6;2386;0;0;0;0;9263;0;24;0;548;22;0;0;0;0;0;13;0;6
+rice fields;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+bare rocks, cliffs and outcrops;0;12;0;0;378;4;0;0;29;6;6;0;40;0;0;0;0;0;3;1;0;0;0;0;0;0;45;0;172;0;1;0;0;0;0;0;0;0;0;0
+salt pans;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+arable land in irrigated areas;354;25;0;0;0;6;0;0;404;149;123;0;84;0;0;0;0;0;10;231;160;131;0;0;0;0;197;0;1;0;4069;13;0;0;0;0;0;26;0;17
+non-irrigated arable land;15;15;0;0;17;4;0;0;41;5;5;0;53;0;0;0;0;0;1;13;51;10;0;0;0;0;29;0;1;0;695;1033;0;0;0;0;0;12;0;0
+complex cultivation and parcel systems;98;23;0;0;0;1;0;0;252;276;53;0;91;0;0;0;0;0;13;41;134;61;0;0;0;0;117;0;0;0;756;35;0;0;0;0;0;47;0;2
+dunes and sand beaches;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+continuous fabric;3;0;0;0;0;0;0;0;164;104;11;0;13;0;0;0;0;0;16;31;2;923;0;0;0;0;2699;0;2;0;26;4;0;0;0;0;0;2;0;0
+discontinuous fabric;20;10;0;0;1;3;0;0;562;518;44;0;120;5;0;0;0;0;12;151;24;796;0;0;0;0;1304;0;3;0;387;16;0;0;0;0;0;22;0;2
+peat bogs;0;1;0;0;0;0;0;0;8;0;0;0;37;0;0;18;0;0;0;0;0;0;0;0;157;0;0;0;0;0;0;0;0;0;0;0;0;0;0;36
+vineyards;25;2;0;0;0;1;0;0;28;9;14;0;5;0;0;0;0;0;3;5;152;5;0;0;0;0;9;0;0;0;82;5;0;0;0;0;0;1651;0;4
+wetlands and brackish valleys;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+internal wetlands;32;23;0;0;4;70;0;0;5;19;395;0;160;0;0;0;0;0;12;66;2;3;0;0;0;0;20;0;0;0;64;0;0;0;0;0;0;0;0;1125
