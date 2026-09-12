@@ -1,0 +1,6 @@
+log_dir: outputs/logs
+log_level: info
+
+source_folder: data/elu/predictions
+output_folder: outputs/remaps
+lut_path: ELU_original.xlsx

@@ -1,0 +1,53 @@
+{
+  "name": "SAHC Lightning",
+  "containerEnv": {
+    "REPO_DIR": "${containerWorkspaceFolder}"
+  },
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "REPO_DIR": "${containerWorkspaceFolder}"
+    }
+  },
+  "runArgs": [
+    "--gpus=all",
+    "--ipc=host",
+    "--ulimit",
+    "memlock=-1",
+    "--ulimit",
+    "stack=67108864",
+    "--ulimit",
+    "nofile=65536:65536",
+    "-h",
+    "sahc-lightning"
+  ],
+  "mounts": [
+    "type=bind,src=/media,dst=/media",
+    "type=bind,src=/mnt,dst=/mnt"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "redhat.vscode-yaml",
+        "tamasfe.even-better-toml",
+        "charliermarsh.ruff"
+      ],
+      "settings": {
+        "[python]": {
+          "editor.formatOnSave": true,
+          "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+          },
+          "editor.defaultFormatter": "charliermarsh.ruff"
+        },
+        "notebook.formatOnSave.enabled": true
+      }
+    }
+  },
+  "postCreateCommand": "bash /opt/app/entrypoint.sh",
+  "shutdownAction": "stopContainer"
+}

@@ -1,0 +1,7 @@
+log_dir: outputs/logs
+log_level: info
+
+source_folder: data/elu/monthly_composites
+gt_path: data/elu/ground_truth.tif
+output_zarr_path: data/elu/dataset.zarr
+lut_path: ELU_original.xlsx

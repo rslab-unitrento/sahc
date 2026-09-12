@@ -1,0 +1,54 @@
+log_dir: outputs/logs
+log_level: info
+experiment_name: nwpu-trainable
+save_path: outputs/runs
+seed: [42]
+use_ray: false
+debug: false
+
+metaparameters:
+  lr: 0.0005353495207890168
+  weight_decay: 0.002168842686925225
+  consistency_weight: 0.02175049130151234
+  batch_size: 512
+  epochs: 50
+
+dataset_config:
+  datamodule: VHRDataModule
+  data_dir: data/nwpu
+  lut_path: NWPU.xlsx
+  transform: true
+  num_workers: 0
+
+model_config:
+  lightning_module: LightningSAHC
+  swa: true
+  taxonomy: NWPU
+  main_level: Level_1
+  level_weights:
+    Level_1: 0.5
+    Level_2: 0.2
+    Level_3: 0.3
+  backbone_arch: ResNet50
+  compile: false
+  init_pos_bias: 0.5
+  init_neg_bias: -5.0
+  init_noise_std: 0.01
+  train_joints: true
+  divergence_type: jsd
+  supervised_cce_cons: true
+
+trainer_config:
+  accelerator: auto
+  devices: 1
+  precision: 32-true
+  gradient_clip_val: 5
+  num_workers: 0
+  limit_train_batches: 1.0
+  limit_val_batches: 1.0
+  limit_test_batches: 1.0
+
+mlflow_config:
+  enabled: false
+
+ray_tune_config: {}

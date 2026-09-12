@@ -1,0 +1,59 @@
+log_dir: outputs/logs
+log_level: info
+experiment_name: elu-trainable
+save_path: outputs/runs
+seed: [42]
+use_ray: false
+debug: false
+
+metaparameters:
+  lr: 0.000694874420872341
+  weight_decay: 0.05510612650691824
+  consistency_weight: 3.4257742420367343
+  batch_size: 512
+  epochs: 50
+
+dataset_config:
+  datamodule: SentinelDataModule
+  zarr_path: data/elu/dataset.zarr
+  split_path: data/elu/split_indices.pt
+  lut_path: ELU.xlsx
+  patch_size: 9
+  samples_per_class: 2000
+  num_workers: 0
+
+model_config:
+  lightning_module: LightningSAHC
+  swa: true
+  taxonomy: ELU
+  main_level: Level_1
+  level_weights:
+    Level_1: 0.5
+    Level_2: 0.2
+    Level_3: 0.1
+    Level_4: 0.2
+  n_features: 10
+  time_steps: 12
+  backbone_arch: RSTTEncoder
+  compile: false
+  init_pos_bias: 0.5
+  init_neg_bias: -5.0
+  init_noise_std: 0.01
+  train_joints: true
+  divergence_type: jsd
+  supervised_cce_cons: true
+
+trainer_config:
+  accelerator: auto
+  devices: 1
+  precision: 32-true
+  gradient_clip_val: 5
+  num_workers: 0
+  limit_train_batches: 1.0
+  limit_val_batches: 1.0
+  limit_test_batches: 1.0
+
+mlflow_config:
+  enabled: false
+
+ray_tune_config: {}
