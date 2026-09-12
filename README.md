@@ -174,15 +174,14 @@ Table II. Test Performance Comparison of Different Methods on the ELU Dataset. T
 
 # Citation
 ```BibTeX
-@Article{weikmann_semantics_2026,
-  author={Weikmann, Giulio and Perantoni, Gianmarco and Bruzzone, Lorenzo},
-  journal={{IEEE Trans. Geosci. Remote Sens.}}, 
-  title={{Semantics-Aware Hierarchical Consensus Learning for Remote Sensing Image Classification}}, 
-  date={2026-09-07},
-  volume={},
-  number={},
-  doi={10.1109/TGRS.2026.3731443},
-  note={early access}
+@article{weikmann2026semantics,
+  author  = {Weikmann, Giulio and Perantoni, Gianmarco and Bruzzone, Lorenzo},
+  journal = {IEEE Trans. Geosci. Remote Sens.}, 
+  title   = {{Semantics-Aware Hierarchical Consensus Learning for Remote Sensing Image Classification}}, 
+  year    = {2026},
+  month   = {Sep. 7,},
+  doi     = {10.1109/TGRS.2026.3731443},
+  note    = {early access}
 }
 ```
 
