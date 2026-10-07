@@ -179,9 +179,9 @@ Table II. Test Performance Comparison of Different Methods on the ELU Dataset. T
   journal = {IEEE Trans. Geosci. Remote Sens.}, 
   title   = {{Semantics-Aware Hierarchical Consensus Learning for Remote Sensing Image Classification}}, 
   year    = {2026},
-  month   = {Sep. 7,},
+  month   = sep,
   doi     = {10.1109/TGRS.2026.3731443},
-  note    = {early access}
+  note    = {{A}rt. no. 4417518}
 }
 ```
 
